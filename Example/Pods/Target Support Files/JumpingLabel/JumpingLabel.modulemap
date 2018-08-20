@@ -1,0 +1,6 @@
+framework module JumpingLabel {
+  umbrella header "JumpingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

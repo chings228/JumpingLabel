@@ -1,0 +1,6 @@
+framework module Pods_JumpingLabel_Example {
+  umbrella header "Pods-JumpingLabel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
