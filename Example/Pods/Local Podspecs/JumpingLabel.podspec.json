@@ -1,8 +1,9 @@
 {
   "name": "JumpingLabel",
   "version": "0.1.0",
-  "summary": "A short description of JumpingLabel.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Animate Text Label , Like Count Down",
+  "swift_version": "3.2",
+  "description": "This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.",
   "homepage": "https://github.com/chings228/JumpingLabel",
   "license": {
     "type": "MIT",

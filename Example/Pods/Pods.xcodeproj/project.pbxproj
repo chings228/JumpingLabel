@@ -7,31 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D7C9C7BEF1DAB0222B4B592BC831C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		25BBB9F4915D3664CC879D5C5A77E29A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DA8EB7250B939FCC6D6B62EAB09D34 /* ReplaceMe.swift */; };
 		3D629EEE6B7C8D71DB719A7AB26D9CD9 /* Pods-JumpingLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F529A85333542E14B3710E42C672290 /* Pods-JumpingLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3F14F7CD296010838F40B164050DA918 /* JumpingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B3D7169269E15CE91A5BED15601C322 /* JumpingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7D3DC35A51CA30779542EEC1BE9EE3 /* Pods-JumpingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55456963747F0BF9437E29C80114BC8F /* Pods-JumpingLabel_Example-dummy.m */; };
 		7A17245B3408B59ECEB95A96DC52B597 /* Pods-JumpingLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB347A43C30CE712069197CCE962E3FF /* Pods-JumpingLabel_Tests-dummy.m */; };
-		C3E180BC5A759D78861A6242AA2975E4 /* Pods-JumpingLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55456963747F0BF9437E29C80114BC8F /* Pods-JumpingLabel_Example-dummy.m */; };
+		7F67C446D55BAA1A93E5F34F954B76DC /* Pods-JumpingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89297E30C5CEB6AFBD0C3643F491BD0 /* Pods-JumpingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C868E94E41FE4FE2EFF08FCF5D175339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D5D30EF1627AAF434AEAE7A582271E22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		D631AFED4A7447BE15F5529F751D40A3 /* Pods-JumpingLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B89297E30C5CEB6AFBD0C3643F491BD0 /* Pods-JumpingLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE8A25ABBFA51EF8A61A4AF0AC0359A6 /* JumpingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F79BB9EC5D3D3F97B14ABEC87BF601D1 /* JumpingLabel-dummy.m */; };
+		D2A67FA8FA47E36C9D05D9D1A8FF4CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0804A96F6E5D298696615A99F428A506 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE1CCE06B33ADE1EB75E8B74311EF007;
-			remoteInfo = JumpingLabel;
-		};
 		3179BF1CAE81FD7BBF6EF70179DF6BA0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D382719BC3185631D2DD61D514615545;
+			remoteGlobalIDString = EDDDB67BA031A74158CA64223ACB4972;
 			remoteInfo = "Pods-JumpingLabel_Example";
 		};
 /* End PBXContainerItemProxy section */
@@ -39,11 +28,8 @@
 /* Begin PBXFileReference section */
 		051A27FCC4D1F04F92A84FDB191B6587 /* Pods-JumpingLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JumpingLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0DCE119EED23A211CAB6C0DA6DB44625 /* Pods-JumpingLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JumpingLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10B889E7F7F93DBF6AED1551CCC58062 /* JumpingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JumpingLabel.modulemap; sourceTree = "<group>"; };
 		14A84228187BCACA99F5F25B76E40689 /* Pods-JumpingLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JumpingLabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		1B3D7169269E15CE91A5BED15601C322 /* JumpingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JumpingLabel-umbrella.h"; sourceTree = "<group>"; };
-		20925B0C7DB9FC90EB93A80FAD1CD759 /* JumpingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JumpingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		22DA8EB7250B939FCC6D6B62EAB09D34 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JumpingLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		26F90E49A2E6DC5AF1B8DA2DD7C84A49 /* Pods_JumpingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JumpingLabel_Example.framework; path = "Pods-JumpingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A90CC6D98628E23119EF13EC0D59811 /* Pods-JumpingLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JumpingLabel_Example.modulemap"; sourceTree = "<group>"; };
 		426B5C359FB67F66512D37C5B46531E6 /* Pods-JumpingLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JumpingLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		55456963747F0BF9437E29C80114BC8F /* Pods-JumpingLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JumpingLabel_Example-dummy.m"; sourceTree = "<group>"; };
@@ -51,35 +37,30 @@
 		5916CD0280E7455472AA52674B006D0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F529A85333542E14B3710E42C672290 /* Pods-JumpingLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JumpingLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		62D6CA07C48C8A297A07727F460DD0B0 /* Pods-JumpingLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JumpingLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		64EF3DEBBF85B55E81F27527297A68DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76CD85905A993CC0ED7AE27B75AE0220 /* Pods-JumpingLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JumpingLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		787F63F5E23B9826EA25BF11DB0AA72E /* Pods-JumpingLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JumpingLabel_Tests.modulemap"; sourceTree = "<group>"; };
-		8A5AA980BF27D28948D9E7D6D6EDD876 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		901D07B0694D48178356A17A98FC0E73 /* Pods-JumpingLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JumpingLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9385802281858A5AE8F6916725341F39 /* Pods-JumpingLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JumpingLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3646A8D66EF90E4698DEB758E2D6C22 /* Pods-JumpingLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JumpingLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AB346399B87A7F2FBB78A07F52741316 /* Pods-JumpingLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JumpingLabel_Example-resources.sh"; sourceTree = "<group>"; };
-		B7C9F58A4F7EC786B0865553730C7260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7CDA0F90DB51B29C180AEC5DABD3003 /* JumpingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JumpingLabel.framework; path = JumpingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDD6F46FB39CDA5446F3663F0F7AD58 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B89297E30C5CEB6AFBD0C3643F491BD0 /* Pods-JumpingLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JumpingLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 		BB347A43C30CE712069197CCE962E3FF /* Pods-JumpingLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JumpingLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		BCA154113DC000030CEAC96C22E791B6 /* Pods-JumpingLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JumpingLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BD0042FEB2FB6730FD6CAEE37D7B7402 /* Pods_JumpingLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JumpingLabel_Example.framework; path = "Pods-JumpingLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB6929835AC82D82ACA8BB1E40AF6DB9 /* JumpingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JumpingLabel-prefix.pch"; sourceTree = "<group>"; };
-		D01A7874955F74AAAC051E01F33AFFE4 /* JumpingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JumpingLabel.xcconfig; sourceTree = "<group>"; };
+		CF88DAB71AD2890C5CB5E301A5472FE1 /* JumpingLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JumpingLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D48B8CF6BDFBA49C897950F40EA195F6 /* Pods-JumpingLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JumpingLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F39B4846F408012365A8327FC5A06251 /* Pods_JumpingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JumpingLabel_Tests.framework; path = "Pods-JumpingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F79BB9EC5D3D3F97B14ABEC87BF601D1 /* JumpingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JumpingLabel-dummy.m"; sourceTree = "<group>"; };
-		FFBBF6559FFDE3C9E753030ED2257CD9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D8D996257655082BEA44F8316ACF0906 /* Pods_JumpingLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JumpingLabel_Tests.framework; path = "Pods-JumpingLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1327208ABA3E0A4350A6A961D4D9BB28 /* Frameworks */ = {
+		00767E9FA22BF93EDA4AB1B371EFA0D1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7C9C7BEF1DAB0222B4B592BC831C64 /* Foundation.framework in Frameworks */,
+				D2A67FA8FA47E36C9D05D9D1A8FF4CF6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,14 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C868E94E41FE4FE2EFF08FCF5D175339 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7917F8238377C57C58D1BE3CFEBFD3A2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5D30EF1627AAF434AEAE7A582271E22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,20 +93,10 @@
 			path = "Target Support Files/Pods-JumpingLabel_Example";
 			sourceTree = "<group>";
 		};
-		063782B0D7CC8D079EF0BAF23417B40B /* Products */ = {
+		1B8354A480674FEC5906221B0A2FCB49 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B7CDA0F90DB51B29C180AEC5DABD3003 /* JumpingLabel.framework */,
-				BD0042FEB2FB6730FD6CAEE37D7B7402 /* Pods_JumpingLabel_Example.framework */,
-				F39B4846F408012365A8327FC5A06251 /* Pods_JumpingLabel_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2B36CD846E43AD58F0519B50DD71CE27 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6D18BDC5DB61840064EC412FACDA0AA8 /* JumpingLabel */,
+				C03B73C3C6E876495985F89BBF8B9141 /* JumpingLabel */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -147,23 +110,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6D18BDC5DB61840064EC412FACDA0AA8 /* JumpingLabel */ = {
+		70C243BB221311DB5CF4E225A6D1CF4F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				22DA8EB7250B939FCC6D6B62EAB09D34 /* ReplaceMe.swift */,
-				7291ACBCBBBC9E482EA34084C846D80F /* Pod */,
-				C2926B98F1ECA2828903DE2F69D72A43 /* Support Files */,
-			);
-			name = JumpingLabel;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7291ACBCBBBC9E482EA34084C846D80F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				20925B0C7DB9FC90EB93A80FAD1CD759 /* JumpingLabel.podspec */,
-				8A5AA980BF27D28948D9E7D6D6EDD876 /* LICENSE */,
-				FFBBF6559FFDE3C9E753030ED2257CD9 /* README.md */,
+				CF88DAB71AD2890C5CB5E301A5472FE1 /* JumpingLabel.podspec */,
+				64EF3DEBBF85B55E81F27527297A68DC /* LICENSE */,
+				ACDD6F46FB39CDA5446F3663F0F7AD58 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -172,9 +124,9 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2B36CD846E43AD58F0519B50DD71CE27 /* Development Pods */,
+				1B8354A480674FEC5906221B0A2FCB49 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				063782B0D7CC8D079EF0BAF23417B40B /* Products */,
+				E6D2F71A53F36193F7BB8FD9D9BAB611 /* Products */,
 				633F9E01D83E6A492B8FFBD5BAB06D8C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -187,18 +139,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C2926B98F1ECA2828903DE2F69D72A43 /* Support Files */ = {
+		C03B73C3C6E876495985F89BBF8B9141 /* JumpingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				B7C9F58A4F7EC786B0865553730C7260 /* Info.plist */,
-				10B889E7F7F93DBF6AED1551CCC58062 /* JumpingLabel.modulemap */,
-				D01A7874955F74AAAC051E01F33AFFE4 /* JumpingLabel.xcconfig */,
-				F79BB9EC5D3D3F97B14ABEC87BF601D1 /* JumpingLabel-dummy.m */,
-				CB6929835AC82D82ACA8BB1E40AF6DB9 /* JumpingLabel-prefix.pch */,
-				1B3D7169269E15CE91A5BED15601C322 /* JumpingLabel-umbrella.h */,
+				70C243BB221311DB5CF4E225A6D1CF4F /* Pod */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JumpingLabel";
+			name = JumpingLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D24CCDAE5C93DF9A5E15BDC4CF183D14 /* Pods-JumpingLabel_Tests */ = {
@@ -227,6 +174,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E6D2F71A53F36193F7BB8FD9D9BAB611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F90E49A2E6DC5AF1B8DA2DD7C84A49 /* Pods_JumpingLabel_Example.framework */,
+				D8D996257655082BEA44F8316ACF0906 /* Pods_JumpingLabel_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -238,60 +194,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		661E5D2FB83BC03A515A28F02E6EFA86 /* Headers */ = {
+		B1B412E80C6348F8FAA53107A8D40E33 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D631AFED4A7447BE15F5529F751D40A3 /* Pods-JumpingLabel_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C4425B79823AB17111C94760AD174D03 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F14F7CD296010838F40B164050DA918 /* JumpingLabel-umbrella.h in Headers */,
+				7F67C446D55BAA1A93E5F34F954B76DC /* Pods-JumpingLabel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BE1CCE06B33ADE1EB75E8B74311EF007 /* JumpingLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C46A3AA2443F9116862C0A82D97E56BE /* Build configuration list for PBXNativeTarget "JumpingLabel" */;
-			buildPhases = (
-				79DD3D0F31FFFDAC66195AC2BBD2BC77 /* Sources */,
-				7917F8238377C57C58D1BE3CFEBFD3A2 /* Frameworks */,
-				C4425B79823AB17111C94760AD174D03 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = JumpingLabel;
-			productName = JumpingLabel;
-			productReference = B7CDA0F90DB51B29C180AEC5DABD3003 /* JumpingLabel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D382719BC3185631D2DD61D514615545 /* Pods-JumpingLabel_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39947A866A4270CF42B745616EB2EFD6 /* Build configuration list for PBXNativeTarget "Pods-JumpingLabel_Example" */;
-			buildPhases = (
-				9A10844BB017F6C0D85DAD0581EA5A53 /* Sources */,
-				1327208ABA3E0A4350A6A961D4D9BB28 /* Frameworks */,
-				661E5D2FB83BC03A515A28F02E6EFA86 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				056A20DDFBB6FD036A7259B9BDD94BEA /* PBXTargetDependency */,
-			);
-			name = "Pods-JumpingLabel_Example";
-			productName = "Pods-JumpingLabel_Example";
-			productReference = BD0042FEB2FB6730FD6CAEE37D7B7402 /* Pods_JumpingLabel_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		DEAAB48FA5FD98A4FB7AFD1E411BF530 /* Pods-JumpingLabel_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 59BA35E977EDC06CCA518A5CA26D5034 /* Build configuration list for PBXNativeTarget "Pods-JumpingLabel_Tests" */;
@@ -307,7 +220,24 @@
 			);
 			name = "Pods-JumpingLabel_Tests";
 			productName = "Pods-JumpingLabel_Tests";
-			productReference = F39B4846F408012365A8327FC5A06251 /* Pods_JumpingLabel_Tests.framework */;
+			productReference = D8D996257655082BEA44F8316ACF0906 /* Pods_JumpingLabel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDDDB67BA031A74158CA64223ACB4972 /* Pods-JumpingLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B65BDF3EA2A5F32DE520374BFF788D /* Build configuration list for PBXNativeTarget "Pods-JumpingLabel_Example" */;
+			buildPhases = (
+				393F6E1410A6B2371A61B14FEC36D307 /* Sources */,
+				00767E9FA22BF93EDA4AB1B371EFA0D1 /* Frameworks */,
+				B1B412E80C6348F8FAA53107A8D40E33 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JumpingLabel_Example";
+			productName = "Pods-JumpingLabel_Example";
+			productReference = 26F90E49A2E6DC5AF1B8DA2DD7C84A49 /* Pods_JumpingLabel_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,32 +257,22 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 063782B0D7CC8D079EF0BAF23417B40B /* Products */;
+			productRefGroup = E6D2F71A53F36193F7BB8FD9D9BAB611 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE1CCE06B33ADE1EB75E8B74311EF007 /* JumpingLabel */,
-				D382719BC3185631D2DD61D514615545 /* Pods-JumpingLabel_Example */,
+				EDDDB67BA031A74158CA64223ACB4972 /* Pods-JumpingLabel_Example */,
 				DEAAB48FA5FD98A4FB7AFD1E411BF530 /* Pods-JumpingLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79DD3D0F31FFFDAC66195AC2BBD2BC77 /* Sources */ = {
+		393F6E1410A6B2371A61B14FEC36D307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8A25ABBFA51EF8A61A4AF0AC0359A6 /* JumpingLabel-dummy.m in Sources */,
-				25BBB9F4915D3664CC879D5C5A77E29A /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A10844BB017F6C0D85DAD0581EA5A53 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C3E180BC5A759D78861A6242AA2975E4 /* Pods-JumpingLabel_Example-dummy.m in Sources */,
+				6A7D3DC35A51CA30779542EEC1BE9EE3 /* Pods-JumpingLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,16 +287,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		056A20DDFBB6FD036A7259B9BDD94BEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JumpingLabel;
-			target = BE1CCE06B33ADE1EB75E8B74311EF007 /* JumpingLabel */;
-			targetProxy = 0804A96F6E5D298696615A99F428A506 /* PBXContainerItemProxy */;
-		};
 		3AA4D016D2BF561C6660F3310F14001B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JumpingLabel_Example";
-			target = D382719BC3185631D2DD61D514615545 /* Pods-JumpingLabel_Example */;
+			target = EDDDB67BA031A74158CA64223ACB4972 /* Pods-JumpingLabel_Example */;
 			targetProxy = 3179BF1CAE81FD7BBF6EF70179DF6BA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,109 +363,6 @@
 			};
 			name = Release;
 		};
-		7801C856FD15288AF84CDD345870CDFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76CD85905A993CC0ED7AE27B75AE0220 /* Pods-JumpingLabel_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JumpingLabel_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JumpingLabel_Example/Pods-JumpingLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		792E4CE5076611BEFA64755AC5B683A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01A7874955F74AAAC051E01F33AFFE4 /* JumpingLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JumpingLabel/JumpingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JumpingLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JumpingLabel/JumpingLabel.modulemap";
-				PRODUCT_MODULE_NAME = JumpingLabel;
-				PRODUCT_NAME = JumpingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7EB21E192C2238C5206398E9ED04E843 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 901D07B0694D48178356A17A98FC0E73 /* Pods-JumpingLabel_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JumpingLabel_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JumpingLabel_Example/Pods-JumpingLabel_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -615,38 +426,6 @@
 			};
 			name = Debug;
 		};
-		8E4882D59B747698C6A4557F3A0025A3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D01A7874955F74AAAC051E01F33AFFE4 /* JumpingLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JumpingLabel/JumpingLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JumpingLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JumpingLabel/JumpingLabel.modulemap";
-				PRODUCT_MODULE_NAME = JumpingLabel;
-				PRODUCT_NAME = JumpingLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -705,6 +484,73 @@
 			};
 			name = Release;
 		};
+		BBEBF0DF10B0B62DE1492DBB3D9EAF06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901D07B0694D48178356A17A98FC0E73 /* Pods-JumpingLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JumpingLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JumpingLabel_Example/Pods-JumpingLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE2BB90A0C618FCC3D503FDCBD1B5848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CD85905A993CC0ED7AE27B75AE0220 /* Pods-JumpingLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JumpingLabel_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JumpingLabel_Example/Pods-JumpingLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -713,15 +559,6 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		39947A866A4270CF42B745616EB2EFD6 /* Build configuration list for PBXNativeTarget "Pods-JumpingLabel_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7EB21E192C2238C5206398E9ED04E843 /* Debug */,
-				7801C856FD15288AF84CDD345870CDFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -735,11 +572,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C46A3AA2443F9116862C0A82D97E56BE /* Build configuration list for PBXNativeTarget "JumpingLabel" */ = {
+		84B65BDF3EA2A5F32DE520374BFF788D /* Build configuration list for PBXNativeTarget "Pods-JumpingLabel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8E4882D59B747698C6A4557F3A0025A3 /* Debug */,
-				792E4CE5076611BEFA64755AC5B683A0 /* Release */,
+				BBEBF0DF10B0B62DE1492DBB3D9EAF06 /* Debug */,
+				DE2BB90A0C618FCC3D503FDCBD1B5848 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
