@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JumpingLabel_Example' do
+  pod 'JumpingLabel', :path => '../'
+
+  target 'JumpingLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
